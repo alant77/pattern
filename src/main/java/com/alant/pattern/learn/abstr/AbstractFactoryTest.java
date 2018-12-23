@@ -1,4 +1,4 @@
-package com.alant.pattern.practice.abstr;
+package com.alant.pattern.learn.abstr;
 
 /**
  * @TianL

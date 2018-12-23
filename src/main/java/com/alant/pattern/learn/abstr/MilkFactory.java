@@ -1,6 +1,6 @@
-package com.alant.pattern.practice.abstr;
+package com.alant.pattern.learn.abstr;
 
-import com.alant.pattern.practice.*;
+import com.alant.pattern.learn.*;
 
 /**
  * @TianL

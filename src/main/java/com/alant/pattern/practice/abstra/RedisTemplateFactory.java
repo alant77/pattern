@@ -1,9 +1,9 @@
-package com.alant.pattern.homework.abstra;
+package com.alant.pattern.practice.abstra;
 
-import com.alant.pattern.homework.AliRedisTempalte;
-import com.alant.pattern.homework.BaiduRedisTemplate;
-import com.alant.pattern.homework.RedisTemplate;
-import com.alant.pattern.homework.TencentRedisTemplate;
+import com.alant.pattern.practice.AliRedisTempalte;
+import com.alant.pattern.practice.BaiduRedisTemplate;
+import com.alant.pattern.practice.RedisTemplate;
+import com.alant.pattern.practice.TencentRedisTemplate;
 
 /**
  * @TianL

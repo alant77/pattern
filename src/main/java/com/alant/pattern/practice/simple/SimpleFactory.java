@@ -1,23 +1,25 @@
 package com.alant.pattern.practice.simple;
 
-import com.alant.pattern.practice.MengniuMilk;
-import com.alant.pattern.practice.Milk;
-import com.alant.pattern.practice.TelunsuMilk;
-import com.alant.pattern.practice.YiliMilk;
+import com.alant.pattern.practice.AliRedisTempalte;
+import com.alant.pattern.practice.BaiduRedisTemplate;
+import com.alant.pattern.practice.RedisTemplate;
+import com.alant.pattern.practice.TencentRedisTemplate;
 
 /**
- * 简单工厂模式，就像小作坊
+ * @TianL
+ * @2018/12/23
+ * @简单工厂模式之redis操作
  */
 public class SimpleFactory {
-
-    Milk getMilkByName(String name) {
-        if ("telunsu".equalsIgnoreCase(name)) {
-            return new TelunsuMilk();
-        } else if ("yili".equalsIgnoreCase(name)) {
-            return new YiliMilk();
-        } else if ("mengniu".equalsIgnoreCase(name)) {
-            return new MengniuMilk();
+    RedisTemplate getRedisTemplateByName(String name) {
+        if ("ali".equalsIgnoreCase(name)) {
+            return new AliRedisTempalte();
+        } else if ("tencent".equalsIgnoreCase(name)) {
+            return new TencentRedisTemplate();
+        } else if ("baidu".equalsIgnoreCase(name)) {
+            return new BaiduRedisTemplate();
         } else {
+            System.out.println("无此类型的redis实现");
             return null;
         }
     }

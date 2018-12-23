@@ -1,4 +1,4 @@
-package com.alant.pattern.practice;
+package com.alant.pattern.learn;
 
 public class Test {
     public static void main(String[] args) {

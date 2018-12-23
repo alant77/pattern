@@ -1,6 +1,6 @@
-package com.alant.pattern.practice.abstr;
+package com.alant.pattern.learn.abstr;
 
-import com.alant.pattern.practice.Milk;
+import com.alant.pattern.learn.Milk;
 
 /**
  * @TianL

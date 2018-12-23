@@ -1,7 +1,7 @@
-package com.alant.pattern.homework.function;
+package com.alant.pattern.practice.function;
 
-import com.alant.pattern.homework.AliRedisTempalte;
-import com.alant.pattern.homework.RedisTemplate;
+import com.alant.pattern.practice.AliRedisTempalte;
+import com.alant.pattern.practice.RedisTemplate;
 
 /**
  * @TianL

@@ -1,7 +1,7 @@
-package com.alant.pattern.practice.function;
+package com.alant.pattern.learn.function;
 
-import com.alant.pattern.practice.MengniuMilk;
-import com.alant.pattern.practice.Milk;
+import com.alant.pattern.learn.MengniuMilk;
+import com.alant.pattern.learn.Milk;
 
 public class MengniuFactory implements Factory {
     @Override

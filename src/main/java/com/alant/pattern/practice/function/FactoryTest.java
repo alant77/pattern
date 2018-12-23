@@ -1,12 +1,14 @@
 package com.alant.pattern.practice.function;
 
+/**
+ * @TianL
+ * @2018/12/23
+ * @
+ */
 public class FactoryTest {
     public static void main(String[] args) {
-        //用户想要伊利牛奶，那么就由伊利工厂为其提供
-        Factory factory = new YiliFactory();
-        System.out.println(factory.getMilk().getName());
-        //想要蒙牛，就由蒙牛工厂提供
-        Factory mengniuFac = new MengniuFactory();
-        System.out.println(mengniuFac.getMilk().getName());
+        //用户想要哪种redis实现呢， 还需要去拿到对应生产实现模板的工厂
+        Factory factory = new AliRedisTemplateFactory();
+        System.out.println(factory.getRedisTemplate().set("key", "value"));
     }
 }

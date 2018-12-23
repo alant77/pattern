@@ -1,7 +1,7 @@
-package com.alant.pattern.practice.function;
+package com.alant.pattern.learn.function;
 
-import com.alant.pattern.practice.Milk;
-import com.alant.pattern.practice.YiliMilk;
+import com.alant.pattern.learn.Milk;
+import com.alant.pattern.learn.YiliMilk;
 
 public class YiliFactory implements Factory {
     @Override

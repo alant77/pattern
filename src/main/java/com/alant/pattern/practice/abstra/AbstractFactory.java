@@ -1,6 +1,6 @@
-package com.alant.pattern.homework.abstra;
+package com.alant.pattern.practice.abstra;
 
-import com.alant.pattern.homework.RedisTemplate;
+import com.alant.pattern.practice.RedisTemplate;
 
 /**
  * @TianL

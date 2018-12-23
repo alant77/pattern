@@ -1,12 +1,14 @@
 package com.alant.pattern.practice.function;
 
-import com.alant.pattern.practice.Milk;
+import com.alant.pattern.practice.RedisTemplate;
 
 /**
+ * @TianL
+ * @2018/12/23
+ * @
  * 工厂方法模式
- * 标准的工厂生产模式
- * 不同的类型的牛奶会有对应的工厂去生产，而不再是一个工厂生产所有类型的牛奶
+ * 生产redis操作模板
  */
 public interface Factory {
-    Milk getMilk();
+    RedisTemplate getRedisTemplate();
 }

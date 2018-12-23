@@ -1,11 +1,16 @@
 package com.alant.pattern.practice.simple;
 
+/**
+ * @TianL
+ * @2018/12/23
+ * @
+ */
 public class SimpleFactoryTest {
     public static void main(String[] args) {
-        //简单工厂模式，就像小作坊生产
-        //用户说来一个伊利牛奶,小作坊就根据用户需求生产
-        //用户不再需要关心怎么生产的了
+        //用户需要使用哪种redis，需要自己知道标识
         SimpleFactory factory = new SimpleFactory();
-        System.out.println(factory.getMilkByName("yili").getName());
+
+        System.out.println(factory.getRedisTemplateByName("jingdong"));
+        System.out.println(factory.getRedisTemplateByName("ali"));
     }
 }
